@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<h1>Register</h1>
+<!-- Example of a classic registration form -->
+<form>
+	<label for="FirstName">First Name:</label>
+	<input name="FirstName" id="FirstName" type="text" placeholder="John" required>
+	<label for="LastName">Last Name:</label>
+	<input name="LastName" id="LastName" type="text" placeholder="Smith" required>
+<div>
+	<label for = "Male">Male</label>
+	<input name = "Gender" id = "Male" type="radio" value = "Male">
+	<label for = "Female">Female</label>
+	<input name = "Gender" id = "Female" type="radio" value = "Female">
+	<label for = "Other">Other</label>
+	<input name = "Gender" id = "Other" type="radio" value = "Other">
+</div>
+
+<div>
+	<label for="email">Email:</label>
+	<input name="email" id="email" type="email" placeholder="email@mail.com" required>
+	<label for="password">Password:</label>
+	<input name="password" id="password" type="password" pattern=
+	".{4,10}" required title ="4 to 10 characters">
+</div>
+
+<div>
+	<label for="Birthday">Birthday:</label>
+		<select name = "birthdayMonth">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>March</option>
+			<option>April</option>
+		</select>
+		<select name = "birthdayDay">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select name = "birthdayYear">
+			<option>Year</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>1995</option>
+		</select>
+</div>
+
+<div>
+	<label for="Terms">I agree to the terms and conditions</label>
+	<input id ="Terms" name="Terms" type="checkbox">
+</div>
+
+	<input type="submit">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+<h1>Login</h1>
+ 
+ <!-- action - where the form sends data to -->
+ <!-- method - what http method (get/post)  -->	
+ <!-- example: action="http://wikipedia.org" method="GET" -->
+
+<form>
+	<input type="text" placeholder="username">
+	<input type="password" placeholder="password">
+	<input type="submit">
+</form>
+<br>
+<br>
+<br>
+<form>
+	<label>
+		Username:
+		<input type="text" placeholder="username">
+	</label>
+	<label>
+		Password:
+		<input type="password" placeholder="password">
+	</label>
+	
+	<input type="submit">
+</form>
+<br>
+<br>
+<br>
+<!-- alternate syntax -->
+<form>
+	<label for="email">Email:</label>
+	<input id="email" type="email" placeholder="email" required>
+	
+	<label for="password">	Password:</label>
+	<input id="password" type="password" placeholder="password" required>
+	
+	
+	<input type="submit">
+</form>
+
+<!-- Inputs -->
+<input type="radio">
+<input type="checkbox">
+
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+	<label for = "dogs">Dogs:</label>
+	<input name = "petChoice" id = "dogs" type="radio" value = "DOGS">
+	<label for = "cats">Cats:</label>
+	<input name = "petChoice" id = "cats" type="radio" value = "CATS">
+
+
+<!-- dropdown menu -->
+<p>What's your favorite color?</p>
+	<select name = "color">
+		<option>Red</option>
+		<option>Orange</option>
+		<option>Yellow</option>
+	</select>
+<br>
+<p>What is your current mood?</p>
+	<select name = "mood">
+		<option value="happy">:)</option>
+		<option value="neutral">:\</option>
+		<option value="sad">:(</option>
+	</select>
+		<button>Go!</button>
+
+</form>
+
+<!-- text area for larger input-->
+<p>Text Area</p>
+<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+</body>
+</html>
