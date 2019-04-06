@@ -1,0 +1,53 @@
+
+
+
+/*built in color - not usually used*/
+/*adding borders there is border width, border color, and border style*/
+h1 {
+	color: red;
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 1px solid green;
+}
+
+/*hexadecimal color*/
+li {
+	color: #FF1493;
+}
+/*RGB color* rgb (value of red, value of blue, value of green)/
+ each range from 0-255  similar to hexadecimal excpect syntax is differnt*/
+h4 {
+	color: rgb(68, 0, 200);
+}
+ 
+/*RGBA - same as RGB but with alpha(transparent) channel. this range is 0.0 - 1.0*/
+h5{
+ 	color: rgba(11, 99, 150, 1);
+}
+h3 {
+	color: rgba(11, 99, 150, .6);
+}
+h2 {
+	color: rgba(11, 99, 150, .2);
+}
+
+/*changes background for a specific element. In this example just the h4 */
+h4 {
+	background: rgb(255, 100, 80);
+}
+ 
+ /*to change whole background*/
+body {
+	background: #112348;
+}
+
+/*can also change background to an image*/
+body{
+	background: url(https://i1.wp.com/lilar.com/wp-content/uploads/2016/10/Savin-NY-Website-Background-Web.jpg?ssl=1);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+

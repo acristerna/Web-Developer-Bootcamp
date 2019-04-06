@@ -1,0 +1,39 @@
+/*element selector*/
+ul {
+	border: 2px solid red;
+}
+
+ /* id selector - refer to id's with "#" - usually once */
+#special{
+	background: yellow;
+}
+
+/* class selecter - refer to classes with a "." - can be multiple times*/
+.completed {
+	text-decoration: line-through;
+}
+
+/*star selector * applies to every element*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*decendant selector*/
+li a {
+	color: red;
+}
+
+/*adjacent selector*/
+h4 + ol {
+	border: 4px solid pink;
+}
+
+/*attribute selector*/
+a[href = "http://www.google.com"] {
+	background: green;
+}
+
+/*nth of type - select 5th div or every 2nd li */
+ol:nth-of-type(2){
+	background: purple;
+}
