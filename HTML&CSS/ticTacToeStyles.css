@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #C18ADF;
+	font-size: 70px;
+
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+
+}
+
+.vertical {
+	border-left: 3px solid #EC8DC3;
+	border-right: 3px solid #EC8DC3;
+}
+
+.horizontal {
+	border-top: 3px solid #EC8DC3;
+	border-bottom: 3px solid #EC8DC3;
+}
