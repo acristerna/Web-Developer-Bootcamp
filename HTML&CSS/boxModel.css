@@ -1,0 +1,27 @@
+p {
+/*Content - Width and Height*/
+/*width: 200px;*/
+/*can also do width in percent - this will change the element sizes to be a percent of the page*/
+/*this will stay a consistent amount so even if you maximize or minimize the page the elements will stay in ratio*/
+width: 50%;
+
+/*Borders*/
+
+border: 2px solid blue;
+
+/*Padding*/
+/*space between border and element*/
+/*padding: 10px;*/
+padding-left: 40px;
+
+/*Margin*/
+/*margin-top: 100px;*/
+/*top, right, bottom, left*/
+/*Margin: 200px 30px 40px 50px;*/
+/*auto can be used to center*/
+/*margin: 0 auto 0 auto;*/
+/*same as above*/
+margin: 0 auto;
+/*need to put "px" if anything other than 0*/
+}
+

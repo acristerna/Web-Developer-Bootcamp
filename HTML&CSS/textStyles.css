@@ -1,0 +1,41 @@
+ /*font family - some computers dont have all fonts. Can also add alternatives*/ 
+ /*text-align - the alignnment of the text*/
+
+ h1 {
+ 	font-family: Arial;
+ 	text-align: right;
+ 	font-family: 'Pacifico', cursive;
+ }
+
+ p {
+ 	font-family: Georgia;
+ 	text-align: center;
+ }
+
+ /*font size*/
+ /*other units beside px, such as em, an em is equal to the parent element */
+ h1 {
+ 	font-size: 50px;
+ }
+ span {
+ 	font-size: 2.0em;
+ }
+
+ /*font weight - how bold or thick the font is*/
+/*different ways to do this- bold
+100 - 800 depends on the font*/
+
+p {
+	font-weight: bold;
+	font-family: 'Pacifico', cursive;
+}
+
+/*space between lines*/
+/*usually 1.5-2 2 is double space.*/
+p {
+	line-height: 2;
+}
+ /*can do decorations to text such as underline, strikethrough, etc.*/
+p {
+	text-decoration: underline;
+}
