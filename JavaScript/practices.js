@@ -281,3 +281,102 @@ function isLeap(year) {
 }
 
 isLeap(1948);
+
+// array challange 
+
+var name = prompt("What is your name?");
+var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+if (guestList.includes(name)) {
+    alert("Welcome!");
+} else {
+    alert("Sorry, maybe next time!");
+}
+
+// FizzBUzz challenge
+
+var output = [];
+var count = 1;
+
+function fizzBuzz() {
+    if ((count % 3 === 0) && (count % 5 === 0)) {
+        output.push("FizzBuzz");
+    } else if (count % 3 === 0) {
+        output.push("Fizz");
+    } else if (count % 5 === 0) {
+        output.push("Buzz");
+    } else {
+        output.push(count);
+    }
+    count++;
+    console.log(output);
+};
+
+// Who's buying lunch?
+
+function whosPaying(names) {
+
+    var numberOfPeople = names.length;
+    var buyLunch = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[buyLunch];
+
+    return randomPerson + " is going to buy lunch today!"
+
+}
+
+// while loops updating FizzBuzz
+
+var output = [];
+var count = 1;
+
+function fizzBuzz() {
+    while (count <= 100) {
+
+        if ((count % 3 === 0) && (count % 5 === 0)) {
+            output.push("FizzBuzz");
+        } else if (count % 3 === 0) {
+            output.push("Fizz");
+        } else if (count % 5 === 0) {
+            output.push("Buzz");
+        } else {
+            output.push(count);
+        }
+        count++;
+    }
+    console.log(output);
+};
+
+// beer on the wall challenge
+
+var numberOfBeer = 99;
+
+function beer() {
+    while (numberOfBeer > 1) {
+        console.log(numberOfBeer + " bottles of beer on the wall, " + numberOfBeer + " bottles of beer. Take 1 down, pass it around, " + (numberOfBeer - 1) + " bottles of beer on the wall.");
+        numberOfBeer--;
+    }
+    if (numberOfBeer === 1) {
+        console.log(numberOfBeer + " bottle of beer on the wall, " + numberOfBeer + " bottle of beer. Take 1 down, pass it around, no more bottles of beer on the wall.");
+        numberOfBeer--;
+    }
+    if (numberOfBeer === 0) {
+        console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
+    }
+}
+
+// for loops fizzbuzz 
+var output = [];
+
+function fizzBuzz() {
+    for (var count = 1; count <= 100; count++) {
+        if ((count % 3 === 0) && (count % 5 === 0)) {
+            output.push("FizzBuzz");
+        } else if (count % 3 === 0) {
+            output.push("Fizz");
+        } else if (count % 5 === 0) {
+            output.push("Buzz");
+        } else {
+            output.push(count);
+        }
+    }
+    console.log(output);
+};
